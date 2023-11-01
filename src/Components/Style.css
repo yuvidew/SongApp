@@ -1,0 +1,355 @@
+.containe{
+    background: #235d84;
+    border-radius: .6rem;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.div{
+    height: 100vh;
+    padding: 1rem .7rem;
+}
+
+.div section{
+    height: 100%;
+    border-radius: .6rem;
+    background: #0A4770;
+}
+
+.theArtical1{
+    border-radius: .6rem;
+    overflow: hidden;
+    width: 97%;
+    margin: .7rem auto ;
+    height: 10rem;
+    position: relative;
+}
+
+.theArtical1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.theControBox{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(242, 238, 238, 0.642),rgba(0,0,0,0.9));
+}
+
+.theControBox button{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+}
+
+.theControBox .textBox{
+    width: 70%;
+}
+
+.theControBox .controlers{
+    width: 30%;
+}
+
+.theControBox .textBox h1{
+    color: #0A4770;
+}
+
+.theCrausel{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 35rem;
+    overflow: hidden;
+}
+
+.theCaption{
+    height: 100%;
+    border-radius: .6rem;
+}
+
+.theCaption .content{
+    position: relative;
+    height: 100%;
+}
+
+.theCaption .content img{
+    height: 100%;
+}
+
+.theCaption .content .textBox{
+    text-transform: capitalize;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 10rem;
+    
+}
+
+.theCaption .content .textBox h1{
+    font-size: 5rem;
+    margin-top: 10rem;
+    color: #ffb703;
+}
+
+.theCaption .content .textBox p{
+    font-size: 1.2rem;
+}
+
+.theCaption img{
+    border-radius: .6rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.thehome{
+    padding: 1rem 0;
+}
+
+.logo h1{
+    color: #fff;
+}
+
+.logo img{
+    width:3rem ;
+    height: 3rem ;
+    margin-right: 1rem ;
+}
+
+.searchCont{
+    width: 100%;
+}
+.searchBox{
+    background: #5299c88d;
+    width: 90%;
+    padding:0 1rem;
+    border-radius: 10rem;
+    
+}
+
+.searchBox input{
+    padding: 1rem;
+    width: 100%;
+    background: transparent;
+    caret-color: #fff;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.searchBox input::placeholder{
+    color: #ffffffd2;
+}
+
+.searchBox img{
+    width: 1.5rem;
+    height:1.5rem;
+}
+
+span{
+    color: #ffb703;
+}
+
+.buttonCont button.theBtn{
+    padding: .8rem ;
+    background-color: transparent;
+    color: #ffffffd2;
+    font-size: 1.3rem;
+    width: 10rem;
+    border-radius: .3rem;
+}
+
+.buttonCont button.theBtn2{
+    padding: .8rem ;
+    background-color: #ffb703;
+    color: #ffffff;
+    font-size: 1.5rem;
+    width: 10rem;
+    border-radius: .3rem;
+}
+
+.theSongBox{
+    height: 28rem;
+    overflow-x: scroll;
+}
+
+.theSongBox::-webkit-scrollbar{
+    display: block;
+}
+
+.theSongBox .ImgCard{
+    width: 50rem;
+    height: 80%;
+    border: 2px;
+}
+
+.imgSlider{
+    padding: 0 .7rem;
+    width: 230rem;
+}
+
+.theSongBox .ImgCard{
+    cursor: pointer;
+}
+
+.theSongBox .ImgCard .imgBox{
+    position: relative;
+    height: 70%;
+    border-radius: .6rem;
+    overflow: hidden;
+}
+
+.theSongBox .ImgCard .imgBox .playBtn{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    top: 0;
+    background: #000000aa;
+}
+
+
+
+.ImgCard .imgBox .playBtn img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.theSongBox .ImgCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.theArtical2 h3 img{
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+ol{
+    height: 55rem;
+    overflow-y: scroll;
+    list-style: none;
+    width: 100%;
+    padding: 0 .1rem;
+    margin-left: -1rem;
+}
+
+ol::-webkit-scrollbar{
+    display: none;
+}
+
+ol li{
+    cursor: pointer;
+    /* height: 7rem; */
+    padding: 1rem .5rem;
+    width: 100%;
+    border-bottom: .2px solid #fff;
+}
+
+ol li.theol{
+    background: #ffffff29;
+}
+
+ol li .textimg{
+    width: 90%;
+    height: 100%;
+}
+
+ol li .index{
+    font-size: 1.7rem;
+}
+
+ol li .textimg .imgBox{
+    width: 7rem;
+    height: 80%;
+}
+
+ol li .textimg .textBox{
+    width: 60%;
+}
+
+ol li .textimg .imgBox img{
+    width: 100%;
+    height: 80%;
+    border-radius: .7rem;
+    object-fit: cover;
+}
+
+ol li .playbtn img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 2rem;
+}
+
+.theCint{
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+.theCint::-webkit-scrollbar{
+    width: 1rem;
+}
+
+.theCint::-webkit-scrollbar-track{
+background: transparent;
+}
+
+.theCint::-webkit-scrollbar-thumb{
+background: #f6ae2d;
+border-radius: 50rem;
+}
+
+.theCreausel {
+    overflow: hidden;
+    border-radius: .7rem;
+    height: 40rem;
+    position: relative;
+}
+
+.theCreausel .textBox{
+    position: absolute;
+    top: 0;
+    color: #0A4770;
+}
+
+.theCreausel .textBox h1{
+    font-size: 4rem;
+}
+
+@media (max-width: 991px){
+    .div{
+        position: absolute;
+        top: 87%;
+        left: 0;
+        z-index: 5;
+        width: 100%;
+    }
+
+    .theCreausel{
+        height: 45rem;
+    }
+}
+
+@media (min-width : 300px) and (max-width : 990px){
+    .div{
+        position: absolute;
+        top: 81.5%;
+        left: 0;
+        z-index: 5;
+        width: 100%;
+    }
+
+    .theCreausel{
+        height: 20rem;
+    }
+
+    .theCreausel .textBox h1{
+        font-size: 1.7rem;
+    }
+}
+
